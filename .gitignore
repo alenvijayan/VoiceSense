@@ -1,0 +1,38 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files and recordings
+temp/
+*.wav
+*.mp3
+*.m4a
+
+# Generated reports
+reports/
+*.pdf
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Dataset files
+*.csv
+*.xlsx
+*.zip
