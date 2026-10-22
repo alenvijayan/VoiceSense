@@ -693,7 +693,7 @@ with analyse_col:
 
 if analyse_clicked:
     if audio_file is None:
-        st.warning("⚠️ Please record your voice or upload a WAV file first.", icon="⚠️")
+        st.warning()
         st.stop()
 
     if not participant_id.strip():
